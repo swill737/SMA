@@ -1,0 +1,99 @@
+/* Resetting default margins and paddings */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Setting a fallback font */
+    background-color: #f0f0f0; /* Light grey background */
+}
+
+.container {
+    max-width: 1200px; /* Limiting content width */
+    margin: 0 auto; /* Centering content horizontally */
+    padding: 20px; /* Adding padding around the content */
+    background-color: #fff; /* White background for content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+}
+
+.logo-container img {
+    width: 100%; /* Ensure logo scales within its container */
+    max-width: 100%; /* Ensure it doesn't exceed its original size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.nav-tabs {
+    background-color: #f0f0f0;  /*Light grey background for navigation */
+    padding: 10px 0; /* Adding vertical padding */
+}
+
+.nav-tabs ul {
+    list-style-type: none; /* Removing default list styles */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centering navigation links */
+}
+
+.nav-tabs ul li {
+    display: inline-block; /* Displaying links horizontally */
+    margin-right: 10px; /* Adding space between links */
+}
+
+.nav-tabs ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Link color */
+    padding: 5px 10px; /* Adding padding inside links */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.nav-tabs ul li a:hover {
+    color: #fff; /* Text color on hover */
+    background-color: #007bff; /* Background color on hover */
+}
+
+.content {
+    padding: 20px 0; /* Adding padding above and below content */
+    text-align: center; /* Center-aligning content */
+}
+
+footer {
+    padding: 10px 0; /* Adding padding inside footer */
+    background-color: #f0f0f0; /* Light grey background */
+}
+
+h2 {
+    /* Text shadow effect for enhanced visual appearance */
+    text-shadow: 0 0 10px rgba(0,255,0,.5), -10px 5px 4px rgba(0,0,255,.45), 15px -4px 3px rgba(255,0,0,.75);
+}
+
+/* Button styles */
+button {
+    background-color: #08a4ec; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+
+  /* Hover effect */
+  button:hover {
+    background-color: #d8d4d4; 
+  }
+.selected {
+ background-color: #d8d4d4; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+
